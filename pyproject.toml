@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flask-hello-world"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Siah <theandrewsiah@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flask_hello_world"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^3.0.0"
+gunicorn = "^21.2.0"
+Authlib = "^1.2.1"
+requests = "^2.31.0"
+openai = "^1.3.3"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
